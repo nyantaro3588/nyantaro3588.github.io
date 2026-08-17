@@ -84,6 +84,12 @@ section{padding:52px 0}
   font-size:10px;letter-spacing:.14em;padding:2px 7px;border:1px solid var(--stake);
   color:var(--stake);white-space:nowrap;
 }
+
+.tool.live{border-color:var(--ink)}
+.tool.live .tool-no{background:var(--ink);color:var(--paper);border-right-color:var(--ink)}
+.tool-name a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid var(--stake);padding-bottom:2px}
+.tool-name a:hover,.tool-name a:focus-visible{border-bottom-color:var(--vermilion)}
+.tag.open{border-color:var(--vermilion);color:var(--vermilion)}
 .tool-desc{font-size:14px;color:var(--ink-soft);margin-top:6px}
 
 /* ---- note block ---- */
@@ -142,14 +148,14 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--vermilion);outline-
   <div class="wrap">
     <div class="sec-head">
       <h2 class="mincho">道具</h2>
-      <span class="count mono">3 / 準備中</span>
+      <span class="count mono">1 公開 / 3</span>
     </div>
     <ul class="tools">
-      <li class="tool">
+      <li class="tool live">
         <div class="tool-no mono">T-1</div>
         <div class="tool-body">
-          <div class="tool-name">過去問ランダム出題<span class="tag">準備中</span></div>
-          <p class="tool-desc">土地家屋調査士・測量士補の問題を順不同で出します。通勤中に一問ずつ崩す用。</p>
+          <div class="tool-name"><a href="t1.html">測量士補 一問一答</a><span class="tag open">公開中</span></div>
+          <p class="tool-desc">全20問を順不同で出題。選んだ直後に正誤と解説が出ます。通勤中に一問ずつ崩す用。</p>
         </div>
       </li>
       <li class="tool">
